@@ -1,0 +1,184 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    margin: 50px;
+}
+
+/* HEADER EFFET PARALLAXE  */
+
+.keyart .keyart_layer {
+    height: 1000px;
+    position: absolute;
+    background-size: auto 900px;
+}
+
+.keyart {
+    position: relative;
+    z-index: 10;
+    margin: 0;
+    padding: 0;
+    height: 800px;
+}
+
+.keyart_layer{
+    background-position: bottom center;
+    background-size: auto 1200px;
+    background-repeat: repeat-x;
+    width: 100%;
+    position: absolute;
+}
+
+.keyart_layer.parallax {
+    position: fixed;
+}
+
+#keyart-0 {
+    background-image: url(img/parallax0.png);
+    background-color: #ffaf1b;
+}
+
+#keyart-1 {
+    background-image: url(img/parallax1.png);
+}
+
+#keyart-2 {
+    background-image: url(img/parallax2.png);
+}
+
+#keyart-3 {
+    background-image: url(img/parallax3.png);
+}
+
+#keyart-4 {
+    background-image: url(img/parallax4.png);
+}
+
+#keyart-5 {
+    background-image: url(img/parallax5.png);
+}
+
+#keyart-6 {
+    background-image: url(img/parallax6.png);
+}
+
+#keyart-7 {
+    background-image: url(img/parallax7.png);
+}
+
+#keyart-8 {
+    background-image: url(img/parallax8.png);
+}
+
+#keyart-scrim {
+    background-color: #ffaf00;
+    opacity: 0;
+}
+
+/* BODY DU SITE */
+
+/* PARTIE INFORMATION */
+
+#main_container {
+    background-color: #210002;
+    z-index: 10;
+    position: relative;
+    margin-top: 200px;
+    padding-top: 70px;
+    height: 1400px;
+    width: 100%;  
+}
+
+.infos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner span {
+    background: url('img/banner_transparent_left.png') no-repeat left top / contain, 
+                url('img/banner_transparent_right.png') no-repeat right top / contain;
+    background-color: #ffaf00;
+    
+    outline: 1px solid #210002;
+    display: inline-block;
+    vertical-align: middle;
+    width: 350px;
+    padding: 10px;
+    margin: 25px;
+}
+
+.banner a {
+   color: #210002;
+   text-decoration: none;
+   background: linear-gradient(to top, #210002 0%, #210002 1px, transparent 2px ) no-repeat;
+   background-size: 0 100%;
+   transition-duration: 1s;
+}
+
+.banner a:hover {
+    background-size: 100% 100%;
+}
+
+.banner span:hover {
+    background-color: #fff;
+    transition-duration: 0.5s;
+}
+
+ul li {
+    list-style: none;
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+    font-weight: 900;
+    text-transform: uppercase;  
+}
+
+.banner img {
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+    margin-right: 50px;
+}
+
+/* PARTIE TEXTE */
+
+#texte {
+    width: 900px;
+    margin: 0 auto;
+}
+
+#texte p {
+    text-align: justify;
+    font-family: 'Noto Serif', serif;
+    color: #ffaf00;
+    letter-spacing: 2px;
+}
+
+#fire{
+    font-family: 'Noto Serif', serif;
+    color: #ffaf00;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* VIDEO YOUTUBE */
+
+iframe {
+    border: 1px solid #ffaf1b;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+
+/* FOOTER  */
+
+h1 {
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+    color: #ffaf00;
+    margin: 100px;
+    border-bottom: #ffaf1b 1px solid;
+    padding-bottom: 15px;
+}
+
