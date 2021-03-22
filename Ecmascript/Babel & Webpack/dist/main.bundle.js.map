@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://web/./src/index.js"],"names":["maVar","alert"],"mappings":";;;;;AAAA,IAAIA,KAAK,GAAG,MAAZ;AAEAC,KAAK,CAACD,KAAD,CAAL,C","file":"main.bundle.js","sourcesContent":["let maVar = \"hoho\"\r\n\r\nalert(maVar);"],"sourceRoot":""}
